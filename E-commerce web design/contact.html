@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | RedStore</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="contact-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you! Reach out to us with any questions, comments, or feedback.</p>
+        </div>
+    </div>
+
+    <div class="contact-form-section">
+        <div class="container">
+            <div class="form-container">
+                <form action="submit_form.php" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p>Phone: +123 456 7890</p>
+                <p>Email: support@redstore.com</p>
+                <p>Address: 123 RedStore Lane, Cityville, Country</p>
+                <div class="social-icons">
+                    <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+                    <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+                    <a href="#"><img src="images/youtube.png" alt="YouTube"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-map">
+        <iframe src="https://www.google.com/maps/embed?pb=..." allowfullscreen></iframe>
+    </div>
+</body>
+</html>
